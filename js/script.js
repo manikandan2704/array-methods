@@ -16,7 +16,7 @@ console.log(array.filter(isPrime));
 
 // for each methods
 
-const words = ["one", "two", "three", "four"];
+const words = ["one", "two",'jighhgr', "three", "four"];
 words.forEach((word) => {
   console.log(word);
   if (word === "two") {
@@ -41,7 +41,7 @@ console.log(sum);
 
 // index of method
   var str = 'Departed Train';
-  var index = str.indexOf('Train');
+  var index = str.indexOf('train');
   console.log(index);
 
 
@@ -61,7 +61,7 @@ console.log(sum);
 
 
   // shift method
-  var arr = ["GFG", "Geeks", "for", "Geeks"];
+  var arr = [ "happy","GFG", "Geeks", "for", "Geeks"];
   var value = arr.shift();
   console.log(value);
   console.log(arr);
@@ -93,3 +93,14 @@ function checkAge(age) {
   return age > 18;
 }
 console.log(ages.every(checkAge))
+
+
+
+
+
+
+
+
+let mani =[90,99,100,89,345]
+console.log(mani)
+mani[i]
